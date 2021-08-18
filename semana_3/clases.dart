@@ -33,6 +33,7 @@ this.datos.add(datos_sensor);
 }
 
 void mostarRegistros(){
+print("Tu datos ingresados son:");
 for (var dato in this.datos){
 print("$dato");
 }
